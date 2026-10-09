@@ -1,0 +1,34 @@
+# Python virtual environment
+
+.venv/
+venv/
+**pycache**/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+
+# Secrets
+
+.env
+.env.*
+!.env.example
+
+# Temporary files and databases
+
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Power BI backups
+
+*.bak
